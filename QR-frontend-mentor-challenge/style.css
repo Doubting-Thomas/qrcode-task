@@ -1,0 +1,36 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem 0 2rem 0;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid white;
+  height: 43rem;
+  width: 30rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.qr-image {
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+.text-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.text-description {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
